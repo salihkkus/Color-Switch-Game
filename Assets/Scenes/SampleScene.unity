@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 206934677}
   m_Layer: 0
   m_Name: Yellow
-  m_TagString: yellow
+  m_TagString: Yellow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 441960099}
   m_Layer: 0
   m_Name: Pink
-  m_TagString: pink
+  m_TagString: Pink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -721,7 +721,7 @@ GameObject:
   - component: {fileID: 663014230}
   m_Layer: 0
   m_Name: Purple
-  m_TagString: purple
+  m_TagString: Purple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -935,7 +935,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1031,6 +1031,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JumpForce: 5
   rb: {fileID: 837912634}
+  currentColor: 
+  colorcyan: {r: 0.20784315, g: 0.8862746, b: 0.9450981, a: 1}
+  coloryellow: {r: 0.96470594, g: 0.8745099, b: 0.054901965, a: 1}
+  colorpink: {r: 1, g: 0, b: 0.5019608, a: 1}
+  colorpurple: {r: 0.54901963, g: 0.07450981, b: 0.9803922, a: 1}
+  sr: {fileID: 837912635}
 --- !u!1 &1376766524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,7 +1050,7 @@ GameObject:
   - component: {fileID: 1376766526}
   m_Layer: 0
   m_Name: Cyan
-  m_TagString: cyan
+  m_TagString: Cyan
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

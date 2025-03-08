@@ -5,10 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - ColorChanger
-  - cyan
-  - pink
-  - purple
-  - yellow
+  - Cyan
+  - Yellow
+  - Pink
+  - Purple
   layers:
   - Default
   - TransparentFX
