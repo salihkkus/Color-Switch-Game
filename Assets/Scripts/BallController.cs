@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
@@ -18,12 +19,18 @@ public class BallController : MonoBehaviour
         randomColor();
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
-        if(col.tag != currentColor)
+        if(other.tag == "ColorChanger")
         {
-            Debug.Log("Öldün");
+              randomColor();
+              Destroy(other.gameObject);
+              return;
+        }
+
+        if(other.tag != currentColor)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
