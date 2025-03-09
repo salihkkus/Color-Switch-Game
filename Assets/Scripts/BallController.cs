@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BallController : MonoBehaviour
 {
@@ -13,6 +15,8 @@ public class BallController : MonoBehaviour
     public Color colorpink;
     public Color colorpurple;
     public SpriteRenderer sr;
+    public int star;
+    public Text starText;
 
     void Start()
     {
@@ -21,6 +25,14 @@ public class BallController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if(other.tag == "Star")
+        {
+            star++;
+            starText.text = star.ToString();
+            Destroy(other.gameObject);
+            return;
+        }
+
         if(other.tag == "ColorChanger")
         {
               randomColor();
