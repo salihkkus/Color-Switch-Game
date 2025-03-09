@@ -31,6 +31,10 @@ public class ObjectSpawner : MonoBehaviour
         CircleController circleController = newCircle.GetComponent<CircleController>();
         circleController.speed = currentSpeed;
 
+        // Direction değişkenini rastgele true ya da false yap
+        circleController.direction = Random.Range(0, 2) == 0; // 0 ya da 1, eğer 0 ise false, 1 ise true
+
+
         // Yeni Circle için hızı 2.5 artır
         currentSpeed += 2.5f;
 
