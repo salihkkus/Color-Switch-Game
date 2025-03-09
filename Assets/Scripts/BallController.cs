@@ -42,7 +42,7 @@ public class BallController : MonoBehaviour
 
         if(other.tag != currentColor)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("StartMenu");
         }
     }
 
