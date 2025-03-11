@@ -22,7 +22,7 @@ Test your reflexes in **Color Switch**, an exciting and addictive endless arcade
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/salihkkus/color-switch.git
+   git clone https://github.com/salihkkus/Color-Switch-Game.git
    ```
 2. Open the project in Unity.
 3. Build and run the game.
