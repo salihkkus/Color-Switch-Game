@@ -10,7 +10,7 @@ Test your reflexes in **Color Switch**, an exciting and addictive endless arcade
 - ⏳ **Endless Gameplay** – How far can you go without hitting the wrong color?
 
 ## Screenshots
-![cs](https://github.com/user-attachments/assets/a8a5685d-f43e-4232-aa6a-7619460d2081) ![cs1](https://github.com/user-attachments/assets/620465d7-ec6a-4330-8f68-a3179a3d4a4e)
+![cs1-imageonline co-merged](https://github.com/user-attachments/assets/4f7c1380-214e-41f1-895f-f0beec618bd3)
 
 
 ## How to Play
